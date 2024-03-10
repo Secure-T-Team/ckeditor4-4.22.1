@@ -1,3 +1,7 @@
+Тут по идее написано, что 4.22.1 можно использовать - https://github.com/ckeditor/ckeditor4
+
+
+
 # CKEditor 4 LTS - Smart WYSIWYG HTML editor [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20CKEditor%204%20on%20GitHub&url=https%3A%2F%2Fgithub.com%2Fckeditor%2Fckeditor4)
 
 [![npm version](https://badge.fury.io/js/ckeditor4.svg)](https://www.npmjs.com/package/ckeditor4)

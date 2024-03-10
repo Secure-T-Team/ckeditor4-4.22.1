@@ -1,6 +1,6 @@
 {
-	"name": "ckeditor4-dev",
-	"version": "4.22.1",
+	"name": "@nonamegeorge/ckeditor4",
+	"version": "1.0.0",
 	"description": "The development version of CKEditor - JavaScript WYSIWYG web text editor.",
 	"devDependencies": {
 		"benderjs": "^0.4.6",
@@ -45,6 +45,6 @@
 	"homepage": "https://ckeditor.com",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ckeditor/ckeditor4.git"
+		"url": "git@github.com:Secure-T-Team/ckeditor4-4.22.1.git"
 	}
 }

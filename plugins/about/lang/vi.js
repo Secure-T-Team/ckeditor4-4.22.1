@@ -2,8 +2,9 @@
 Copyright (c) 2003-2023, CKSource Holding sp. z o.o. All rights reserved.
 For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
-CKEDITOR.plugins.setLang( 'about', 'vi', {
-	copy: 'Bản quyền &copy; $1. Giữ toàn quyền.',
-	dlgTitle: 'Переменные'
-	moreInfo: 'Vui lòng ghé thăm trang web của chúng tôi để có thông tin về giấy phép:'
-} );
+CKEDITOR.plugins.setLang("about", "vi", {
+	copy: "Bản quyền &copy; $1. Giữ toàn quyền.",
+	dlgTitle: "Переменные",
+	moreInfo:
+		"Vui lòng ghé thăm trang web của chúng tôi để có thông tin về giấy phép:",
+});

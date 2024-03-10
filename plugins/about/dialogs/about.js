@@ -58,19 +58,28 @@ CKEDITOR.dialog.add( 'about', function( editor ) {
 						'}' +
 						'</style>' +
 						'<div class="cke_about_container">' +
-						'<div class="cke_about_logo"></div>' +
-						'<p>' +
-							'CKEditor ' + CKEDITOR.version + ' (revision ' + CKEDITOR.revision + ')<br>' +
-							'<a target="_blank" rel="noopener noreferrer" href="https://ckeditor.com/">https://ckeditor.com</a>' +
-						'</p>' +
-						'<p class="cke_about_version-check"></p>' +
-						'<p>' +
-							lang.moreInfo + '<br>' +
-							'<a target="_blank" rel="noopener noreferrer" href="https://ckeditor.com/legal/ckeditor-oss-license/">https://ckeditor.com/legal/ckeditor-oss-license/</a>' +
-						'</p>' +
-						'<p>' +
-							lang.copy.replace( '$1', '<a target="_blank" rel="noopener noreferrer" href="https://cksource.com/">CKSource</a> Holding sp. z o.o' ) +
-						'</p>' +
+							'<div>' +
+								'<div class="title" style="margin-bottom: 10px;">Фишинг</div>' +
+								'<div style="margin-bottom: 4px;">{{.FirstName}} - Имя</div>' +
+								'<div style="margin-bottom: 4px;">{{.LastName}} - Фамилия</div>' +
+								'<div style="margin-bottom: 4px;">{{.CurrentDay}} - День</div>' +
+								'<div style="margin-bottom: 4px;">{{.CurrentMonth}} - Месяц</div>' +
+								'<div style="margin-bottom: 4px;">{{.CurrentYear}} - Год</div>' +
+								'<div style="margin-bottom: 4px;">{{.URL}} - ссылка на фиш. сайт</div>' +
+
+								'<div class="title" style="margin-bottom: 10px;">Редактор шаблонов:</div>' +
+								'<div style="margin-bottom: 4px;">{{platform_name}} - название платформы с гиперссылкой на сайт</div>' +
+								'<div style="margin-bottom: 4px;">{{ip_address}} - ip адрес отправителя письма</div>' +
+								'<div style="margin-bottom: 4px;">{{user_name}} - имя пользователя</div>' +
+								'<div style="margin-bottom: 4px;">{{course_name}} - название курса</div>' +
+								'<div style="margin-bottom: 4px;">{{course_left_days}} - кол-во дней до конца курса</div>' +
+								'<div style="margin-bottom: 4px;">{{email}} - почта пользователя</div>' +
+								'<div style="margin-bottom: 4px;">{{support_email}} - почта службы поддержки</div>' +
+								'<div style="margin-bottom: 4px;">{{invite_url}} - ссылка на регистрацию</div>' +
+								'<div style="margin-bottom: 4px;">{{notify_text}} - текст сообщения (заполняется администратором)</div>' +
+								'<div style="margin-bottom: 4px;">{{link}} - ссылка на отчет</div>' +
+								'<div style="margin-bottom: 4px;">{{organization_title}} - название организации</div>' +
+							'</div>' +
 						'</div>'
 				}
 			]

@@ -4,6 +4,6 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'about', 'fi', {
 	copy: 'Copyright &copy; $1. Kaikki oikeuden pidätetään.',
-	dlgTitle: 'Tietoa CKEditorista',
+	dlgTitle: 'Переменные'
 	moreInfo: 'Lisenssitiedot löytyvät kotisivuiltamme:'
 } );

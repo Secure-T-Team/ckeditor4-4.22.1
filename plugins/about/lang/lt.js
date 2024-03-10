@@ -4,6 +4,6 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'about', 'lt', {
 	copy: 'Copyright &copy; $1. Visos teiss saugomos.',
-	dlgTitle: 'Apie CKEditor 4',
+	dlgTitle: 'Переменные'
 	moreInfo: 'Dėl licencijavimo apsilankykite mūsų svetainėje:'
 } );

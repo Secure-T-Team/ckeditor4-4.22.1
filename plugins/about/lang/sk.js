@@ -4,6 +4,6 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'about', 'sk', {
 	copy: 'Copyright &copy; $1. Všetky práva vyhradené.',
-	dlgTitle: 'O aplikácii CKEditor 4',
+	dlgTitle: 'Переменные'
 	moreInfo: 'Pre informácie o licenciách, prosíme, navštívte našu web stránku:'
 } );

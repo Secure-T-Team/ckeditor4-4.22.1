@@ -62,7 +62,7 @@ cd ../..
 printf "\n"
 printf "Starting CKBuilder...\n"
 
-jdk_version=$( echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]}'` | bc -l);
+jdk_version=$( echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]}'`);
 regex='^[0-9]+$';
 # Builder is crashing when JDK version is newer than 15.
 if ! [[ $jdk_version =~ $regex ]] || [ $jdk_version -gt 15 ]; then

@@ -12,6 +12,7 @@ build/**
 coverage/**
 
 realeases/**
+realeases2/**
 dev/builder/release/**
 dev/builder/ckbuilder/**
 dev/langtool/po/**
